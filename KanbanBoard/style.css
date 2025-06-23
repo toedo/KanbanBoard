@@ -1,0 +1,65 @@
+
+
+body{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: medium;
+    color:black;
+}
+p{
+    font-size: small;
+    color: black;
+}
+
+div{
+    font-size: small;
+    color: white;
+    text-align: center;
+    width: 450px;
+    height: 600px;
+    background-color: darkslategray;
+
+
+    border: 10px solid grey;
+    padding: 30px;
+    margin: 100px;
+    outline: 10px solid darkgrey;
+}
+
+
+
+div.note_board{
+    margin:10px;
+    width: 300px;
+    font-size: 20px;
+    overflow-y:scroll;
+}
+div.dotted{outline-style: dotted;}
+div.double{outline-style: double;}
+div.inner{    
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+div.board{
+    outline: 5px;
+    outline-style:dotted;
+    border: 0px;
+    width: 1600px;
+    height: 800px;
+    gap: 10px;
+    justify-content: center;
+    display:flex;
+}
+
+
+button{
+    background-color:chocolate;
+    border-color: brown;
+    width: 100px;
+    height: 50px;
+}
